@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <label
+        >Enter number
+        <input
+          type="text"
+          id="first-number"
+          value=""
+          placeholder="Enter number"
+        />
+      </label>
+      <label
+        >Enter number
+        <input
+          type="text"
+          id="second-number"
+          value=""
+          placeholder="Enter number"
+        />
+      </label>
+      <select id="select">
+        <option value="+" id="sum">+</option>
+        <option value="-" id="sub">-</option>
+        <option value="*" id="multiply">*</option>
+        <option value="/" id="div">/</option>
+      </select>
+      <button type="submit" id="submitButton">Submit</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
